@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8“ />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Contoso University</title>
     <environment names="Development">
@@ -31,8 +31,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
-                    Contoso
-                    University
+                    Uni Saudade
                 </a>
             </div>
             <div class="navbar-collapse collapse" style="overflow: hidden">
@@ -40,9 +39,9 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">Informações sobre a Universidade</a></li>
                     <li><a asp-area="" asp-controller="Students" asp-action="Index">Alunos</a></li>
-                    <li><a asp-area="" asp-controller="Courses" asp-action="Index">Courses</a></li>
-                    <li><a asp-area="" asp-controller="Instructors" asp-action="Index">Instructors</a></li>
-                    <li><a asp-area="" asp-controller="Departments" asp-action="Index">Departments</a></li>
+                    <li><a asp-area="" asp-controller="Courses" asp-action="Index">Cursos</a></li>
+                    <li><a asp-area="" asp-controller="Instructors" asp-action="Index">Professores</a></li>
+                    <li><a asp-area="" asp-controller="Departments" asp-action="Index">Departamentos</a></li>
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>
@@ -66,7 +65,9 @@
                         </a>
                     </div>
                     <div class="nav navbar-nav" id="BotoesFooter">
-                        <div class="btnFooter"><a>GITHUB</a></div>
+                        <div class="btnFooter">
+                            <img src="../images/githubIcon.png" class="img-responsive" alt="...">
+                        </div>
                         <div class="btnFooter"><a>CODEPEN</a></div>
                         <div class="btnFooter"><a>LINKEDIN</a></div>
                         <div class="btnFooter"><a>SITE</a></div>

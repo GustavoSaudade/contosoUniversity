@@ -35,6 +35,7 @@ textarea {
     width:25%;
     border:solid #fff;
     float:left;
+    text-align: center;
 }
 
 #linha {
@@ -47,5 +48,11 @@ textarea {
     width: 500px;
     height: 300px;
     background: url(../images/university.jpg);
+    background-size: cover;
+}
+
+#GITHUB {
+    position:relative;
+    background: url(../images/githubIcon.png);
     background-size: cover;
 }

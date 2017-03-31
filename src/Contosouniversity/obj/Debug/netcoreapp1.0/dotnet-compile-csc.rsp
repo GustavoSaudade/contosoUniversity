@@ -226,6 +226,7 @@
 -r:"C:\Users\gustavo.saudade\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\gustavo.saudade\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -resource:"C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\obj\Debug\netcoreapp1.0\Contosouniversitydotnet-compile.deps.json",Contosouniversity.deps.json
+-resource:"C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\obj\Debug\netcoreapp1.0\Contosouniversity.Resources.StudentResource.resources",Contosouniversity.Resources.StudentResource.resources
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\PaginatedList.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Program.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Startup.cs"
@@ -260,6 +261,7 @@
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Models\ManageViewModels\SetPasswordViewModel.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs"
+"C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Resources\StudentResource.Designer.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Services\IEmailSender.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Services\ISmsSender.cs"
 "C:\Users\gustavo.saudade\PROJETOS\VS\Contosouniversity\src\Contosouniversity\Services\MessageServices.cs"
