@@ -21,19 +21,21 @@ textarea {
 /* ========== HOME ========== */
 .jumbotron {
     margin-top: 3%!important;
+    text-align: center;
 }
 
 #AuthorFooter {
-    
+    text-align: center;
+    color: #ccc;
 }
 
 #BotoesFooter {
     width:100%;
+    border-radius: 10px;
 }
 
 .btnFooter {
     width:25%;
-    border:solid #fff;
     float:left;
     text-align: center;
 }
