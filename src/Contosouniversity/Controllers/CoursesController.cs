@@ -36,13 +36,15 @@ namespace Contosouniversity.Controllers
             {
                 return NotFound();
             }
+            var course = await _context.Courses
+                .Include(c => c.Department)
+                .AsNoTracking()
+                .SingleOrDefaultAsync(m => m.CourseID == id);
 
-            var course = await _context.Courses.SingleOrDefaultAsync(m => m.CourseID == id);
             if (course == null)
             {
                 return NotFound();
             }
-
             return View(course);
         }
 
@@ -131,13 +133,15 @@ namespace Contosouniversity.Controllers
             {
                 return NotFound();
             }
+            var course = await _context.Courses
+                .Include(c => c.Department)
+                .AsNoTracking()
+                .SingleOrDefaultAsync(m => m.CourseID == id);
 
-            var course = await _context.Courses.SingleOrDefaultAsync(m => m.CourseID == id);
             if (course == null)
             {
                 return NotFound();
             }
-
             return View(course);
         }
 

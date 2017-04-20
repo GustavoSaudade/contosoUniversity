@@ -9,22 +9,22 @@ namespace ContosoUniversity.Models
         public int ID { get; set; }
 
         [Required]
-        [Display(Name = "Last Name")]
+        [Display(Name = "Sobrenome")]
         [StringLength(50)]
         public string LastName { get; set; }
 
         [Required]
         [Column("FirstName")]
-        [Display(Name = "First Name")]
+        [Display(Name = "Nome")]
         [StringLength(50)]
         public string FirstMidName { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-        [Display(Name = "Hire Date")]
+        [Display(Name = "Data de contratação")]
         public DateTime HireDate { get; set; }
 
-        [Display(Name = "Full Name")]
+        [Display(Name = "Nome completo")]
         public string FullName
         {
             get { return LastName + ", " + FirstMidName; }
